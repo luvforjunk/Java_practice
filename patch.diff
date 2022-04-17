@@ -1,0 +1,47 @@
+From a67da3b8e83f0c35c05125d31ba758008ed8be68 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?DESKTOP-R4EHHUR=5C=EC=B5=9C=EC=88=98=EC=A0=95?=
+ <csj3104@naver.com>
+Date: Tue, 29 Mar 2022 09:34:24 +0900
+Subject: [PATCH] =?UTF-8?q?10950=5Ffor=EB=AC=B8=5FA+B-3=5F=EC=A0=95?=
+ =?UTF-8?q?=EB=8B=B5(1)?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ For_10950.java | 22 ++++++++++++++++++++++
+ 1 file changed, 22 insertions(+)
+ create mode 100644 For_10950.java
+
+diff --git a/For_10950.java b/For_10950.java
+new file mode 100644
+index 0000000..ee91772
+--- /dev/null
++++ b/For_10950.java
+@@ -0,0 +1,22 @@
++import java.util.Scanner;
++
++class Main {
++  public static void main(String[] args) {
++
++    Scanner scan = new Scanner(System.in);
++
++    int T;
++
++    T = scan.nextInt();
++
++    int a, b, i;
++    
++      for(i=0; i<T; i++){
++        
++      a = scan.nextInt();
++      b = scan.nextInt();
++                  
++      System.out.println(a+b);
++    }
++  } 
++}
+\ No newline at end of file
+-- 
+2.35.0.windows.1
+
